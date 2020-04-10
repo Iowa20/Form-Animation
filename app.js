@@ -27,7 +27,7 @@ function validateUser(user) {
         }
     }
 
-function nextSlide(parent, nextForm){
+function nextForm(parent, nextForm){
     parent.classList.add('innactive');
     parent.classList.remove('active');
     nextForm.classList.add('active');
