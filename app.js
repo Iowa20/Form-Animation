@@ -9,7 +9,7 @@ function animatedForm(){
 
         //check for validation
         if(input.type === "text" && validateUser(input)){
-            nextForm(parent, nextForm);    
+            nextSlide(parent, nextForm);    
         }
     });
  });
@@ -27,7 +27,7 @@ function validateUser(user) {
         }
     }
 
-function nextForm(parent, nextForm){
+function nextSlide(parent, nextForm){
     parent.classList.add('innactive');
     parent.classList.remove('active');
     nextForm.classList.add('active');
